@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<meta content="FaxHack - Server" property="og:title">
+<meta content="logo.png" property="og:image">
+<html>
+<head>
+<title>FaxHack - Server</title>
+	<script src="https://kit.fontawesome.com/cf35f5e9e0.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Lato:wght@100;300;400;700;900&family=Open+Sans:wght@300;400;600;700;800&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/server.css">
+	<script rel="stylesheet" href="Sticky.js"></script>
+</head>
+<body>
+	<div class="Title">
+	<a class="Link" href="index.html">faxhack</a>
+	</div><div id="TK">.tk</div>
+	
+<div id="navbar">
+  <a class="inactive" href="about.html">About</a>
+  <a class="inactive" href="discord.html">Discord</a>
+  <a class="active" href="server.html">Server</a>
+  <a class="inactive" href="index.html">Main</a>
+</div>
+
+<div style="font-family:'Lato',sans-serif;font-size:45px;text-align:center;display:block;position:fixed;top:45%;height:100%;width:100%;z-index:1;">Sorry.</div>
+<div style="font-family:'Bungee',cursive;font-size:45px;text-align:center;display:block;position:fixed;top:50%;height:100%;width:100%;z-index:1;">This Page Is Under Development.</div>
+
+<button style="z-index:1;" >Test</button>
+
+	<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+</body>
